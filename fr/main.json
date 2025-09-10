@@ -53,8 +53,28 @@
                     "subheading": ":3"
                 },
                 "create_characters": {
-                    "heading": "créez vos personnages !"
+                    "heading": "créez vos personnages !",
+                    "description": "créez des profils de personnage détaillés pour tous vos fursonas et autres personnages, avec leur espèce, leur référence, et leur lore !"
+                },
+                "add_friends": {
+                    "heading": "ajoutez des amis à vos publications !",
+                    "description": "ajoutez vos amis en tant qu'\"Auteurs invités\" à votre publication, et assigne même leurs personnages à eux !"
+                },
+                "join_discord": {
+                    "heading": "rejoignez notre serveur discord !",
+                    "description": "donnez votre avis sur les prochaînes fonctionnalitées ajoutées à Anthera et discutez avec notre communautée géniale !",
+                    "cta": "Rejoindre le serveur"
                 }
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            },
+            "finale": {
+                "cta_signup_login": "S'inscrire / Se connecter",
+                "cta_explore": "Explorer",
+                "cta_roadmap": "Roadmap",
+                "cta_wiki": "Wiki",
+                "footer_text": ":3"
             }
         }
     }
