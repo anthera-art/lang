@@ -1,7 +1,0 @@
-{
-    "name": "Hello, {name}!",
-    "comments": {
-        "one": "1 comment",
-        "other": "{count} comments"
-    }
-}
