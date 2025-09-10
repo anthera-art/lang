@@ -1,1 +1,75 @@
-{}
+{
+    "template": {
+        "page": {
+            "footer": {
+                "terms": "Términos de Servicio",
+                "privacy": "Política de Privacidad",
+                "community_guidelines": "Pautas de la comunidad",
+                "content_rules": "Reglas de Contenido",
+                "made_with": "Hecho con 🐾 por",
+                "bluesky": "Encuéntranos en Bluesky",
+                "discord": "Únete a nuestro Discord",
+                "third_party_licences": "Licencias de Terceros"
+            },
+            "navbar": {
+                "actions": {
+                    "create_post": "Crear una Publicación",
+                    "invites": "Invitaciones",
+                    "notifications": "Notificaciones",
+                    "create": "Crear",
+                    "new_character": "Nuevo Personaje",
+                    "login_cta": "Inicia sesión o crea una cuenta",
+                    "your_rating_filters": "Tus filtros de clasificación",
+                    "ratings": "Clasificaciones"
+                },
+                "links": {
+                    "home": "Inicio",
+                    "explore": "Explorar"
+                },
+                "user_menu": {
+                    "you": "Tú!",
+                    "your_characters": "Tus Personajes",
+                    "manage_uploads": "Administrar Cargas y Borradores",
+                    "settings": "Ajustes",
+                    "logout": "Cierre de Sesión"
+                }
+            }
+        }
+    },
+    "views": {
+        "home": {
+            "meta": {
+                "description": "unete a nuestra pequeña comunidad llena de peludos :3",
+                "title": "Anthera / el sitio de arte más peludo que hay"
+            },
+            "promo": {
+                "create_characters": {
+                    "description": "crea en profundidad perfiles de personajes de todos tus fursonas y otros personajes, con especies, tablas de referencias y lore!",
+                    "heading": "crea tus personajes!"
+                },
+                "explore": {
+                    "heading": "explora el maravilloso arte de nuestra comunidad!"
+                },
+                "add_friends": {
+                    "heading": "añade a tus amigos a tu publicación!",
+                    "description": "añade a tus amigos como autores invitados de tu publicación, puedes hasta añadir a sus personajes en el!"
+                },
+                "join_discord": {
+                    "heading": "unete a nuestro discord!",
+                    "cta": "Unirse a Servidor",
+                    "description": "danos tu opinión sobre las próximas características añadidas a Anthera y chatea con nuestra asombrosa comunidad!"
+                }
+            },
+            "header": {
+                "main_heading": "el sitio de arte más peludo que hay!",
+                "cta_join": "Unete a Anthera!",
+                "cta_explore": "Explorar"
+            },
+            "finale": {
+                "cta_signup_login": "Registrarse / Iniciar Sesión",
+                "cta_explore": "Explorar",
+                "cta_roadmap": "Mapa de Rumbo"
+            }
+        }
+    }
+}
