@@ -1,1 +1,10 @@
-{}
+{
+    "template": {
+        "page": {
+            "footer": {
+                "privacy": "Privacyverklaring",
+                "terms": "Gebruikersovereenkomst"
+            }
+        }
+    }
+}
