@@ -1,7 +1,83 @@
 {
-    "name": "Hello, {name}!",
-    "comments": {
-        "one": "1 comment",
-        "other": "{count} comments"
+  "template": {
+    "page": {
+      "footer": {
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy",
+        "community_guidelines": "Community Guidelines",
+        "content_rules": "Content Rules",
+        "bluesky": "Find us on Bluesky",
+        "discord": "Join our Discord",
+        "made_with": "Made with 🐾 by",
+        "third_party_licences": "Third Party Licences"
+      },
+      "navbar": {
+        "links": {
+          "feed": "Feed",
+          "home": "Home",
+          "explore": "Explore",
+          "wiki": "Wiki"
+        },
+        "user_menu": {
+          "you": "You!",
+          "your_characters": "Your Characters",
+          "manage_uploads": "Manage Uploads and Drafts",
+          "settings": "Settings",
+          "logout": "Log Out"
+        },
+        "actions": {
+          "invites": "Invites",
+          "ratings": "Ratings",
+          "notifications": "Notifications",
+          "create": "Create",
+          "create_post": "Create Post",
+          "new_character": "New Character",
+          "login_cta": "Log in or create an account",
+          "your_rating_filters": "Your rating filters"
+        }
+      }
     }
+  },
+  "views": {
+    "home": {
+      "meta": {
+        "title": "Anthera / the fluffiest furry art site around",
+        "description": "join our fun little community of floofers! :3"
+      },
+      "header": {
+        "main_heading": "the fluffiest art site around!",
+        "cta_join": "Join Anthera!",
+        "cta_explore": "Explore"
+      },
+      "promo": {
+        "explore": {
+          "heading": "explore the amazing art from our community!",
+          "subheading": ":3"
+        },
+        "create_characters": {
+          "heading": "create your characters!",
+          "description": "create in-depth character profiles for all your fursonas and other characters, with species, refsheet, and lore!"
+        },
+        "add_friends": {
+          "heading": "add friends to your post!",
+          "description": "add your friends as Guest Authors to your post, and even assign their characters to them!"
+        },
+        "join_discord": {
+          "heading": "join our discord!",
+          "description": "have your say in the next features added to Anthera and chat with our awesome community!",
+          "cta": "Join Server"
+        }
+      },
+      "characters_panel": {
+        "owner_label": "@{owner}/{tag}"
+      },
+      "finale": {
+        "cta_signup_login": "Sign Up / Log In",
+        "cta_explore": "Explore",
+        "cta_roadmap": "Roadmap",
+        "cta_wiki": "Wiki",
+        "footer_text": ":3"
+      }
+    }
+  }
 }
