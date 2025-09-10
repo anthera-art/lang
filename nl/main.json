@@ -4,6 +4,37 @@
             "footer": {
                 "privacy": "Privacyverklaring",
                 "terms": "Gebruikersovereenkomst"
+            },
+            "navbar": {
+                "user_menu": {
+                    "you": "Jij!",
+                    "logout": "Uitloggen",
+                    "settings": "Instellingen"
+                },
+                "links": {
+                    "wiki": "Wiki"
+                },
+                "actions": {
+                    "notifications": "Meldingen",
+                    "login_cta": "Log in of maak een account"
+                }
+            }
+        }
+    },
+    "views": {
+        "home": {
+            "promo": {
+                "explore": {
+                    "subheading": ":3"
+                }
+            },
+            "finale": {
+                "footer_text": ":3",
+                "cta_signup_login": "Meld aan / Login",
+                "cta_wiki": "Wiki"
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
             }
         }
     }
