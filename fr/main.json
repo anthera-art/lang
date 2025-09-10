@@ -1,1 +1,81 @@
-{}
+{
+    "template": {
+        "page": {
+            "footer": {
+                "privacy": "Politique de confidentialité",
+                "terms": "Conditions d'utilisation",
+                "community_guidelines": "Règles communautaires",
+                "content_rules": "Règles de contenu",
+                "bluesky": "Retrouvez-nous sur Bluesky",
+                "discord": "Rejoignez notre Discord",
+                "made_with": "Fait avec 🐾 par",
+                "third_party_licences": "Licenses tierces"
+            },
+            "navbar": {
+                "actions": {
+                    "notifications": "Notifications",
+                    "invites": "Invitations",
+                    "create": "Créer",
+                    "create_post": "Créer une publication",
+                    "new_character": "Nouveau personnage",
+                    "login_cta": "Se connecter ou créer un compte"
+                },
+                "links": {
+                    "explore": "Explorer",
+                    "feed": "Flux",
+                    "home": "Accueil",
+                    "wiki": "Wiki"
+                },
+                "user_menu": {
+                    "you": "C'est toi !",
+                    "your_characters": "Tes personnages",
+                    "manage_uploads": "Gérer les publications et les brouillons",
+                    "settings": "Paramètres",
+                    "logout": "Se déconnecter"
+                }
+            }
+        }
+    },
+    "views": {
+        "home": {
+            "meta": {
+                "title": "Anthera / le site d'art furry le plus touffu du coin",
+                "description": "rejoignez notre petite communautée de floofeurs ! :3"
+            },
+            "header": {
+                "main_heading": "le site d'art le plus touffu du coin !",
+                "cta_join": "Rejoignez Anthera !",
+                "cta_explore": "Explorer"
+            },
+            "promo": {
+                "explore": {
+                    "heading": "Explorez l'art incroyable de notre communauté !",
+                    "subheading": ":3"
+                },
+                "create_characters": {
+                    "heading": "créez vos personnages !",
+                    "description": "créez des profils de personnage détaillés pour tous vos fursonas et autres personnages, avec leur espèce, leur référence, et leur lore !"
+                },
+                "add_friends": {
+                    "heading": "ajoutez des amis à vos publications !",
+                    "description": "ajoutez vos amis en tant qu'\"Auteurs invités\" à votre publication, et assigne même leurs personnages à eux !"
+                },
+                "join_discord": {
+                    "heading": "rejoignez notre serveur discord !",
+                    "description": "donnez votre avis sur les prochaînes fonctionnalitées ajoutées à Anthera et discutez avec notre communautée géniale !",
+                    "cta": "Rejoindre le serveur"
+                }
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            },
+            "finale": {
+                "cta_signup_login": "S'inscrire / Se connecter",
+                "cta_explore": "Explorer",
+                "cta_roadmap": "Roadmap",
+                "cta_wiki": "Wiki",
+                "footer_text": ":3"
+            }
+        }
+    }
+}
