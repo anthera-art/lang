@@ -1,4 +1,98 @@
 {
+  "generic": {
+    "errors": {
+      "no_perm": {
+        "title": "No Permission",
+        "message": "Your account does not currently have access to this page."
+      }
+    },
+    "ratings": {
+      "safe": "Safe",
+      "suggestive": "Suggestive",
+      "mature": "Mature",
+      "explicit": "Explicit"
+    },
+    "statuses": {
+      "-1": "Deleted (Moderated)",
+      "0": "Draft",
+      "1": "Unlisted",
+      "2": "Public",
+      "3": "Pending Moderation"
+    },
+    "list": {
+      "separator": ", ",
+      "last_separator": " and "
+    },
+    "things": {
+      "guest_authors": "Guest Authors",
+      "author": "Author",
+      "authors": "Authors",
+      "character": "Character",
+      "characters": "Characters",
+      "star": "Star",
+      "stars": "Stars",
+      "art": "Art",
+      "video": "Video",
+      "photo": "Photo",
+      "text": "Text",
+      "views": "Views"
+    },
+    "tabNames": {
+      "home": "Home",
+      "uploads": "Uploads",
+      "gallery": "Gallery",
+      "characters": "Characters",
+      "stars": "Stars",
+      "followers": "Followers",
+      "following": "Following",
+      "edit": "Edit",
+      "post": "Post",
+      "comments": "Comments",
+      "details": "Details",
+      "rating": "Rating",
+      "description": "Description",
+      "publish": "Publish"
+    },
+    "actions": {
+      "add": "Add",
+      "settings": "Settings",
+      "edit": "Edit",
+      "edit_person": "Edit {name}",
+      "save": "Save",
+      "cancel": "Cancel",
+      "discard": "Discard Changes",
+      "delete": "Delete",
+      "view": "View",
+      "publish": "Publish",
+      "view_more": "View More"
+    },
+    "references": {
+      "by": "by {names}",
+      "uploaded_by": "uploaded by {names}",
+      "from": "from {names}",
+      "joined": "joined {date}",
+      "created": "Created {date}",
+      "posted": "Posted {date}",
+      "persons": {
+        "uploads": "{name}'s Uploads",
+        "gallery": "{name}'s Gallery",
+        "characters": "{name}'s Characters",
+        "stars": "{name}'s Stars"
+      }
+    },
+    "counts": {
+      "followers": {
+        "zero": "no followers",
+        "one": "{count} followers",
+        "other": "{count} followers"
+      },
+      "following": {
+        "zero": "no following",
+        "one": "{count} following",
+        "other": "{count} following"
+      }
+    }
+  },
   "template": {
     "page": {
       "footer": {
@@ -39,6 +133,48 @@
     }
   },
   "views": {
+    "post": {
+      "upload": {
+        "title": "Create New",
+        "create": "Create Draft",
+        "read": "Please read the <a target=\"_blank\" href=\"/wiki/Rules and Guidelines/Content Rules\">Content Rules</a> and <a target=\"_blank\" href=\"/wiki/Rules%20and%20Guidelines/Community%20Guidelines\">Community Guidelines</a> before proceeding!"
+      },
+      "view": {
+        "edit": "Edit Post",
+        "creation_date_warning": "This date is provided by the poster and may not represent the true creation date.",
+        "view_more": "View more from {name}",
+        "errors": {
+          "does_not_exist": {
+            "header": "This post does not exist!",
+            "message": "It may have been removed."
+          },
+          "no_rating": {
+            "title": "You cannot view this post",
+            "message": "This post is rated {rating}."
+          },
+          "removed": {
+            "title": "This post has been removed",
+            "message": "It may have broken our terms or guidelines."
+          },
+          "hidden": {
+            "title": "This post is hidden by your blocklist.",
+            "action": {
+              "view": "View Anyway",
+              "back": "Go Back"
+            }
+          }
+        }
+      }
+    },
+    "user": {
+      "view": {
+        "follows_you": "Follows You",
+        "404": "User does not exist",
+        "bio_heading": "Bio",
+        "recent_uploads_heading": "Recent Uploads",
+        "edit": "Edit Profile"
+      }
+    },
     "home": {
       "meta": {
         "title": "Anthera / the fluffiest furry art site around",
