@@ -1,1 +1,149 @@
-{}
+{
+    "generic": {
+        "ratings": {
+            "suggestive": "Соблазнительный",
+            "mature": "Зрелый",
+            "safe": "Для Всех",
+            "explicit": "Откровенный"
+        },
+        "statuses": {
+            "0": "Черновик",
+            "3": "На Рассмотрении",
+            "-1": "Удалено Модерацией",
+            "2": "В общем доступе",
+            "1": "Только по ссылке"
+        },
+        "errors": {
+            "no_perm": {
+                "title": "Нет Разрешения",
+                "message": "Твой аккаунт в настоящее время не имеет доступа к этой странице."
+            }
+        },
+        "list": {
+            "separator": ", ",
+            "last_separator": " и "
+        },
+        "things": {
+            "guest_authors": "Приглашённые Авторы",
+            "author": "Автор",
+            "authors": "Авторы",
+            "character": "Персонаж",
+            "star": "Звезда",
+            "stars": "Звёзды",
+            "art": "Арт",
+            "video": "Видео",
+            "photo": "Фото",
+            "text": "Текст",
+            "views": "Просмотры",
+            "characters": "Персонажи"
+        },
+        "tabNames": {
+            "home": "Главная",
+            "gallery": "Галерея",
+            "characters": "Персонажи",
+            "stars": "Звёзды",
+            "following": "Подписан",
+            "edit": "Изменить",
+            "comments": "Комментарии",
+            "details": "Детали",
+            "rating": "Рейтинг",
+            "description": "Описание",
+            "publish": "Опубликовать",
+            "followers": "Подписчики"
+        },
+        "actions": {
+            "settings": "Настройки",
+            "edit_person": "Изменить {name}",
+            "save": "Сохранить",
+            "cancel": "Отменить",
+            "discard": "Отменить Изменения",
+            "delete": "Удалить",
+            "publish": "Опубликовать",
+            "view_more": "Читать Далее",
+            "add": "Добавить",
+            "edit": "Изменить",
+            "view": "Просмотреть"
+        },
+        "references": {
+            "by": "от {names}"
+        }
+    },
+    "template": {
+        "page": {
+            "navbar": {
+                "actions": {
+                    "create_post": "Создать Пост",
+                    "login_cta": "Авторизуйся или создай аккаунт",
+                    "new_character": "Новый Персонаж"
+                }
+            }
+        }
+    },
+    "views": {
+        "user": {
+            "view": {
+                "bio_heading": "О себе",
+                "follows_you": "Подписан на Тебя",
+                "edit": "Изменить Профиль",
+                "404": "Пользователь не существует"
+            }
+        },
+        "post": {
+            "view": {
+                "errors": {
+                    "hidden": {
+                        "action": {
+                            "back": "Назад",
+                            "view": "Просмотреть в любом случае"
+                        }
+                    },
+                    "removed": {
+                        "title": "Этот пост был удалён"
+                    },
+                    "no_rating": {
+                        "message": "Этот пост {rating}."
+                    },
+                    "does_not_exist": {
+                        "header": "Этот пост не существует!"
+                    }
+                },
+                "edit": "Изменить Пост"
+            },
+            "upload": {
+                "create": "Создать Черновик",
+                "title": "Новое"
+            }
+        },
+        "home": {
+            "finale": {
+                "cta_wiki": "Вики",
+                "cta_roadmap": "Планы",
+                "cta_explore": "Исследовать",
+                "footer_text": ":3",
+                "cta_signup_login": "Регистрация / Логин"
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            },
+            "promo": {
+                "join_discord": {
+                    "cta": "Зайти на Сервер",
+                    "heading": "заходите в наш дискорд сервер!"
+                },
+                "create_characters": {
+                    "heading": "создавай своих персонажей!"
+                },
+                "explore": {
+                    "subheading": ":3"
+                },
+                "add_friends": {
+                    "heading": "добавляй друзей к своему посту!"
+                }
+            },
+            "header": {
+                "cta_explore": "Исследовать",
+                "cta_join": "Присоединяйся к Антере!"
+            }
+        }
+    }
+}
