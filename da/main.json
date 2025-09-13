@@ -8,7 +8,10 @@
             "save": "Gem",
             "cancel": "Annuller",
             "discard": "Fjern Ændringer",
-            "delete": "Slet"
+            "delete": "Slet",
+            "view": "Vis",
+            "publish": "Offentliggør",
+            "view_more": "Vis Mere"
         },
         "errors": {
             "no_perm": {
@@ -18,13 +21,16 @@
         },
         "ratings": {
             "safe": "Sikker",
-            "suggestive": "Suggestiv"
+            "suggestive": "Suggestiv",
+            "explicit": "Voksen",
+            "mature": "Moden"
         },
         "statuses": {
             "-1": "Slettet (Modereret)",
             "1": "Skjult",
             "2": "Offentlig",
-            "3": "Afventer Moderering"
+            "3": "Afventer Moderering",
+            "0": "Kladde"
         },
         "list": {
             "separator": ", ",
@@ -56,34 +62,82 @@
             "comments": "Kommentarer",
             "details": "Detaljer",
             "description": "Beskrivelse",
-            "publish": "Offentliggør"
+            "publish": "Offentliggør",
+            "post": "Opslag",
+            "rating": "Vurdering"
+        },
+        "references": {
+            "by": "af {names}",
+            "uploaded_by": "uploadet af {names}",
+            "from": "fra {names}",
+            "joined": "tilmeldt {date}",
+            "created": "Oprettet {date}",
+            "posted": "Opslået {date}",
+            "persons": {
+                "uploads": "{name}'s Opslag",
+                "gallery": "{name}'s Galleri",
+                "characters": "{name}'s Karakterer",
+                "stars": "{name}'s Stjerner"
+            }
+        },
+        "counts": {
+            "followers": {
+                "zero": "ingen følgere",
+                "one": "{count} følgere",
+                "other": "{count} følgere"
+            },
+            "following": {
+                "zero": "ingen fulgt",
+                "other": "{count] fulgt",
+                "one": "1 fulgt"
+            }
         }
     },
     "template": {
         "page": {
             "navbar": {
                 "links": {
-                    "home": "Hjem"
+                    "home": "Hjem",
+                    "feed": "Feed",
+                    "explore": "Udforsk",
+                    "wiki": "Encyklopædi"
                 },
                 "user_menu": {
                     "logout": "Log ud",
                     "you": "Dig!",
-                    "settings": "Indstillinger"
+                    "settings": "Indstillinger",
+                    "your_characters": "Dine Karakterer",
+                    "manage_uploads": "Administrer opslag og kladder"
                 },
                 "actions": {
                     "notifications": "Notifikationer",
                     "create": "Opret",
                     "create_post": "Opret opslag",
                     "new_character": "Ny karakter",
-                    "login_cta": "Log ind eller opret konto"
+                    "login_cta": "Log ind eller opret konto",
+                    "ratings": "Vurderinger",
+                    "your_rating_filters": "Dine vurderingsfiltre",
+                    "invites": "Invitationer"
                 }
+            },
+            "footer": {
+                "terms": "Servicevilkår",
+                "privacy": "Privatlivspolitik",
+                "content_rules": "Indholdsregler",
+                "bluesky": "Find os på Bluesky",
+                "discord": "Join vores Discord",
+                "made_with": "Lavet med 🐾 af",
+                "third_party_licences": "Tredjepartslicenser",
+                "community_guidelines": "Retningslinjer"
             }
         }
     },
     "views": {
         "post": {
             "upload": {
-                "title": "Opret Ny"
+                "title": "Opret Ny",
+                "read": "Læs venligst <a target=\"_blank\" href=\"/wiki/Rules and Guidelines/Content Rules\">Indholdsreglerne</a> og <a target=\"_blank\" href=\"/wiki/Rules%20and%20Guidelines/Community%20Guidelines\">Retningslinjerne</a> før du fortsætter!",
+                "create": "Opret Kladde"
             },
             "view": {
                 "edit": "Redigere Opslag",
@@ -94,15 +148,22 @@
                         "header": "Dette opslag findes ikke!"
                     },
                     "removed": {
-                        "title": "Dette opslag er blevet fjernet"
+                        "title": "Dette opslag er blevet fjernet",
+                        "message": "Det kan have brudt vores vilkår eller retningslinjer."
                     },
                     "hidden": {
                         "action": {
                             "view": "Vis Alligevel",
                             "back": "Gå Tilbage"
-                        }
+                        },
+                        "title": "Dette opslag er skjult af din blokeringsliste."
+                    },
+                    "no_rating": {
+                        "title": "Du kan ikke se dette opslag",
+                        "message": "Dette opslag er vurderet som {rating}."
                     }
-                }
+                },
+                "creation_date_warning": "Denne dato er angivet af forfatteren og repræsenterer muligvis ikke den sande oprettelsesdato."
             }
         },
         "user": {
@@ -110,7 +171,8 @@
                 "follows_you": "Følger Dig",
                 "404": "Denne bruger eksisterer ikke",
                 "bio_heading": "Biografi",
-                "edit": "Rediger Profil"
+                "edit": "Rediger Profil",
+                "recent_uploads_heading": "Seneste Opslag"
             }
         },
         "home": {
@@ -129,14 +191,17 @@
                     "subheading": ":3"
                 },
                 "add_friends": {
-                    "heading": "tilføj venner til dit opslag!"
+                    "heading": "tilføj venner til dit opslag!",
+                    "description": "Tilføj dine venner som gæsteforfattere til dit opslag, og tildel dem endda deres karakterer!"
                 },
                 "join_discord": {
                     "heading": "tilmeld dig vores discord!",
-                    "cta": "Tilmeld Server"
+                    "cta": "Tilmeld Server",
+                    "description": "Sig din mening om de næste funktioner, der tilføjes til Anthera, og chat med vores fantastiske fællesskab!"
                 },
                 "create_characters": {
-                    "heading": "Opret dine karakterer!"
+                    "heading": "Opret dine karakterer!",
+                    "description": "Opret dybdegående karakterprofiler for alle dine fursonas og andre karakterer, med arter, referenceark og lore!"
                 }
             },
             "finale": {
