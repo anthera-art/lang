@@ -1,1 +1,154 @@
-{}
+{
+    "generic": {
+        "actions": {
+            "settings": "Indstillinger",
+            "add": "Tilføj",
+            "edit": "Rediger",
+            "edit_person": "Rediger {name}",
+            "save": "Gem",
+            "cancel": "Annuller",
+            "discard": "Fjern Ændringer",
+            "delete": "Slet"
+        },
+        "errors": {
+            "no_perm": {
+                "title": "Ingen Tilladelse",
+                "message": "Din konto har i øjeblikket ikke adgang til denne side."
+            }
+        },
+        "ratings": {
+            "safe": "Sikker",
+            "suggestive": "Suggestiv"
+        },
+        "statuses": {
+            "-1": "Slettet (Modereret)",
+            "1": "Skjult",
+            "2": "Offentlig",
+            "3": "Afventer Moderering"
+        },
+        "list": {
+            "separator": ", ",
+            "last_separator": " og "
+        },
+        "things": {
+            "guest_authors": "Gæsteforfattere",
+            "author": "Forfatter",
+            "authors": "Forfattere",
+            "character": "Karakter",
+            "characters": "Karakterer",
+            "star": "Stjerne",
+            "stars": "Stjerner",
+            "art": "Kunst",
+            "video": "Video",
+            "photo": "Foto",
+            "text": "Tekst",
+            "views": "Visninger"
+        },
+        "tabNames": {
+            "home": "Hjem",
+            "uploads": "Opslag",
+            "gallery": "Galleri",
+            "characters": "Karakterer",
+            "stars": "Stjerner",
+            "followers": "Følgere",
+            "following": "Fulgte",
+            "edit": "Redigere",
+            "comments": "Kommentarer",
+            "details": "Detaljer",
+            "description": "Beskrivelse",
+            "publish": "Offentliggør"
+        }
+    },
+    "template": {
+        "page": {
+            "navbar": {
+                "links": {
+                    "home": "Hjem"
+                },
+                "user_menu": {
+                    "logout": "Log ud",
+                    "you": "Dig!",
+                    "settings": "Indstillinger"
+                },
+                "actions": {
+                    "notifications": "Notifikationer",
+                    "create": "Opret",
+                    "create_post": "Opret opslag",
+                    "new_character": "Ny karakter",
+                    "login_cta": "Log ind eller opret konto"
+                }
+            }
+        }
+    },
+    "views": {
+        "post": {
+            "upload": {
+                "title": "Opret Ny"
+            },
+            "view": {
+                "edit": "Redigere Opslag",
+                "view_more": "Se mere fra {name}",
+                "errors": {
+                    "does_not_exist": {
+                        "message": "Den er muligvis blevet slettet.",
+                        "header": "Dette opslag findes ikke!"
+                    },
+                    "removed": {
+                        "title": "Dette opslag er blevet fjernet"
+                    },
+                    "hidden": {
+                        "action": {
+                            "view": "Vis Alligevel",
+                            "back": "Gå Tilbage"
+                        }
+                    }
+                }
+            }
+        },
+        "user": {
+            "view": {
+                "follows_you": "Følger Dig",
+                "404": "Denne bruger eksisterer ikke",
+                "bio_heading": "Biografi",
+                "edit": "Rediger Profil"
+            }
+        },
+        "home": {
+            "meta": {
+                "description": "Bliv en del af vores sjove lille fællesskab af floofers! :3",
+                "title": "Anthera / den mest pelsede kunstside i området"
+            },
+            "header": {
+                "main_heading": "den mest pelsede kunstside i området!",
+                "cta_join": "Tilmeld dig Anthera!",
+                "cta_explore": "Udforsk"
+            },
+            "promo": {
+                "explore": {
+                    "heading": "Udforsk det fantastiske kunst i vores fællesskab!",
+                    "subheading": ":3"
+                },
+                "add_friends": {
+                    "heading": "tilføj venner til dit opslag!"
+                },
+                "join_discord": {
+                    "heading": "tilmeld dig vores discord!",
+                    "cta": "Tilmeld Server"
+                },
+                "create_characters": {
+                    "heading": "Opret dine karakterer!"
+                }
+            },
+            "finale": {
+                "cta_wiki": "Encyklopædi",
+                "footer_text": ":3",
+                "cta_signup_login": "Tilmeld / Log Ind",
+                "cta_explore": "Udforsk",
+                "cta_roadmap": "Fremtidsplan"
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            }
+        }
+    }
+}
