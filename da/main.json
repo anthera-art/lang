@@ -88,7 +88,7 @@
             },
             "following": {
                 "zero": "ingen fulgt",
-                "other": "{count] fulgt",
+                "other": "{count} fulgt",
                 "one": "1 fulgt"
             }
         }
