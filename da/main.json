@@ -1,0 +1,219 @@
+{
+    "generic": {
+        "actions": {
+            "settings": "Indstillinger",
+            "add": "Tilføj",
+            "edit": "Rediger",
+            "edit_person": "Rediger {name}",
+            "save": "Gem",
+            "cancel": "Annuller",
+            "discard": "Fjern Ændringer",
+            "delete": "Slet",
+            "view": "Vis",
+            "publish": "Offentliggør",
+            "view_more": "Vis Mere"
+        },
+        "errors": {
+            "no_perm": {
+                "title": "Ingen Tilladelse",
+                "message": "Din konto har i øjeblikket ikke adgang til denne side."
+            }
+        },
+        "ratings": {
+            "safe": "Sikker",
+            "suggestive": "Suggestiv",
+            "explicit": "Voksen",
+            "mature": "Moden"
+        },
+        "statuses": {
+            "-1": "Slettet (Modereret)",
+            "1": "Skjult",
+            "2": "Offentlig",
+            "3": "Afventer Moderering",
+            "0": "Kladde"
+        },
+        "list": {
+            "separator": ", ",
+            "last_separator": " og "
+        },
+        "things": {
+            "guest_authors": "Gæsteforfattere",
+            "author": "Forfatter",
+            "authors": "Forfattere",
+            "character": "Karakter",
+            "characters": "Karakterer",
+            "star": "Stjerne",
+            "stars": "Stjerner",
+            "art": "Kunst",
+            "video": "Video",
+            "photo": "Foto",
+            "text": "Tekst",
+            "views": "Visninger"
+        },
+        "tabNames": {
+            "home": "Hjem",
+            "uploads": "Opslag",
+            "gallery": "Galleri",
+            "characters": "Karakterer",
+            "stars": "Stjerner",
+            "followers": "Følgere",
+            "following": "Fulgte",
+            "edit": "Redigere",
+            "comments": "Kommentarer",
+            "details": "Detaljer",
+            "description": "Beskrivelse",
+            "publish": "Offentliggør",
+            "post": "Opslag",
+            "rating": "Vurdering"
+        },
+        "references": {
+            "by": "af {names}",
+            "uploaded_by": "uploadet af {names}",
+            "from": "fra {names}",
+            "joined": "tilmeldt {date}",
+            "created": "Oprettet {date}",
+            "posted": "Opslået {date}",
+            "persons": {
+                "uploads": "{name}'s Opslag",
+                "gallery": "{name}'s Galleri",
+                "characters": "{name}'s Karakterer",
+                "stars": "{name}'s Stjerner"
+            }
+        },
+        "counts": {
+            "followers": {
+                "zero": "ingen følgere",
+                "one": "{count} følgere",
+                "other": "{count} følgere"
+            },
+            "following": {
+                "zero": "ingen fulgt",
+                "other": "{count} fulgt",
+                "one": "1 fulgt"
+            }
+        }
+    },
+    "template": {
+        "page": {
+            "navbar": {
+                "links": {
+                    "home": "Hjem",
+                    "feed": "Feed",
+                    "explore": "Udforsk",
+                    "wiki": "Encyklopædi"
+                },
+                "user_menu": {
+                    "logout": "Log ud",
+                    "you": "Dig!",
+                    "settings": "Indstillinger",
+                    "your_characters": "Dine Karakterer",
+                    "manage_uploads": "Administrer opslag og kladder"
+                },
+                "actions": {
+                    "notifications": "Notifikationer",
+                    "create": "Opret",
+                    "create_post": "Opret opslag",
+                    "new_character": "Ny karakter",
+                    "login_cta": "Log ind eller opret konto",
+                    "ratings": "Vurderinger",
+                    "your_rating_filters": "Dine vurderingsfiltre",
+                    "invites": "Invitationer"
+                }
+            },
+            "footer": {
+                "terms": "Servicevilkår",
+                "privacy": "Privatlivspolitik",
+                "content_rules": "Indholdsregler",
+                "bluesky": "Find os på Bluesky",
+                "discord": "Join vores Discord",
+                "made_with": "Lavet med 🐾 af",
+                "third_party_licences": "Tredjepartslicenser",
+                "community_guidelines": "Retningslinjer"
+            }
+        }
+    },
+    "views": {
+        "post": {
+            "upload": {
+                "title": "Opret Ny",
+                "read": "Læs venligst <a target=\"_blank\" href=\"/wiki/Rules and Guidelines/Content Rules\">Indholdsreglerne</a> og <a target=\"_blank\" href=\"/wiki/Rules%20and%20Guidelines/Community%20Guidelines\">Retningslinjerne</a> før du fortsætter!",
+                "create": "Opret Kladde"
+            },
+            "view": {
+                "edit": "Redigere Opslag",
+                "view_more": "Se mere fra {name}",
+                "errors": {
+                    "does_not_exist": {
+                        "message": "Den er muligvis blevet slettet.",
+                        "header": "Dette opslag findes ikke!"
+                    },
+                    "removed": {
+                        "title": "Dette opslag er blevet fjernet",
+                        "message": "Det kan have brudt vores vilkår eller retningslinjer."
+                    },
+                    "hidden": {
+                        "action": {
+                            "view": "Vis Alligevel",
+                            "back": "Gå Tilbage"
+                        },
+                        "title": "Dette opslag er skjult af din blokeringsliste."
+                    },
+                    "no_rating": {
+                        "title": "Du kan ikke se dette opslag",
+                        "message": "Dette opslag er vurderet som {rating}."
+                    }
+                },
+                "creation_date_warning": "Denne dato er angivet af forfatteren og repræsenterer muligvis ikke den sande oprettelsesdato."
+            }
+        },
+        "user": {
+            "view": {
+                "follows_you": "Følger Dig",
+                "404": "Denne bruger eksisterer ikke",
+                "bio_heading": "Biografi",
+                "edit": "Rediger Profil",
+                "recent_uploads_heading": "Seneste Opslag"
+            }
+        },
+        "home": {
+            "meta": {
+                "description": "Bliv en del af vores sjove lille fællesskab af floofers! :3",
+                "title": "Anthera / den mest pelsede kunstside i området"
+            },
+            "header": {
+                "main_heading": "den mest pelsede kunstside i området!",
+                "cta_join": "Tilmeld dig Anthera!",
+                "cta_explore": "Udforsk"
+            },
+            "promo": {
+                "explore": {
+                    "heading": "Udforsk det fantastiske kunst i vores fællesskab!",
+                    "subheading": ":3"
+                },
+                "add_friends": {
+                    "heading": "tilføj venner til dit opslag!",
+                    "description": "Tilføj dine venner som gæsteforfattere til dit opslag, og tildel dem endda deres karakterer!"
+                },
+                "join_discord": {
+                    "heading": "tilmeld dig vores discord!",
+                    "cta": "Tilmeld Server",
+                    "description": "Sig din mening om de næste funktioner, der tilføjes til Anthera, og chat med vores fantastiske fællesskab!"
+                },
+                "create_characters": {
+                    "heading": "Opret dine karakterer!",
+                    "description": "Opret dybdegående karakterprofiler for alle dine fursonas og andre karakterer, med arter, referenceark og lore!"
+                }
+            },
+            "finale": {
+                "cta_wiki": "Encyklopædi",
+                "footer_text": ":3",
+                "cta_signup_login": "Tilmeld / Log Ind",
+                "cta_explore": "Udforsk",
+                "cta_roadmap": "Fremtidsplan"
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            }
+        }
+    }
+}

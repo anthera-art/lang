@@ -1,1 +1,41 @@
-{}
+{
+    "template": {
+        "page": {
+            "navbar": {
+                "actions": {
+                    "create": "Utwórz",
+                    "create_post": "Utwórz Post",
+                    "new_character": "Nowa Postać",
+                    "notifications": "Powiadomienia"
+                },
+                "user_menu": {
+                    "settings": "Ustawienia",
+                    "you": "Ty!",
+                    "logout": "Wyloguj się"
+                },
+                "links": {
+                    "home": "Główna"
+                }
+            }
+        }
+    },
+    "views": {
+        "post": {
+            "view": {
+                "edit": "Edytuj Post",
+                "creation_date_warning": "Data ta została podana przez autora posta i może nie odpowiadać rzeczywistej dacie utworzenia."
+            }
+        },
+        "home": {
+            "finale": {
+                "footer_text": ":3",
+                "cta_signup_login": "Rejestracja \\ Logowanie"
+            },
+            "promo": {
+                "explore": {
+                    "subheading": ":3"
+                }
+            }
+        }
+    }
+}

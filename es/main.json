@@ -24,7 +24,9 @@
                 },
                 "links": {
                     "home": "Inicio",
-                    "explore": "Explorar"
+                    "explore": "Explorar",
+                    "wiki": "Wiki",
+                    "feed": "Feed"
                 },
                 "user_menu": {
                     "you": "Tú!",
@@ -48,11 +50,12 @@
                     "heading": "crea tus personajes!"
                 },
                 "explore": {
-                    "heading": "explora el maravilloso arte de nuestra comunidad!"
+                    "heading": "explora el maravilloso arte de nuestra comunidad!",
+                    "subheading": ":3"
                 },
                 "add_friends": {
                     "heading": "añade a tus amigos a tu publicación!",
-                    "description": "añade a tus amigos como autores invitados de tu publicación, puedes hasta añadir a sus personajes en el!"
+                    "description": "añade a tus amigos como Autores Invitados de tu publicación, puedes hasta añadir a sus personajes en el!"
                 },
                 "join_discord": {
                     "heading": "unete a nuestro discord!",
@@ -68,7 +71,148 @@
             "finale": {
                 "cta_signup_login": "Registrarse / Iniciar Sesión",
                 "cta_explore": "Explorar",
-                "cta_roadmap": "Mapa de Rumbo"
+                "cta_roadmap": "Mapa de Rumbo",
+                "footer_text": ":3",
+                "cta_wiki": "Wiki"
+            },
+            "characters_panel": {
+                "owner_label": "@{owner}/{tag}"
+            }
+        },
+        "post": {
+            "upload": {
+                "create": "Crear Borrador",
+                "read": "Por favor lea los <a target=\"_blank\" href=\"/wiki/Rules and Guidelines/Content Rules\"> Reglas de Contenido</a>y<a target=\"_blank\" href=\"/wiki/Rules%20and%20Guidelines/Community%20Guidelines\">Reglas de Comunidad</a>antes de proceder!",
+                "title": "Crear Nuevo"
+            },
+            "view": {
+                "edit": "Editar Publicación",
+                "view_more": "Ver más de {name}",
+                "errors": {
+                    "does_not_exist": {
+                        "header": "Esta publicación no existe!",
+                        "message": "Puede que se haya eliminado."
+                    },
+                    "no_rating": {
+                        "title": "No puedes ver esta publicación",
+                        "message": "Esta publicación esta valorada como {rating}."
+                    },
+                    "removed": {
+                        "message": "Es probable que hayas roto nuestros términos o reglas.",
+                        "title": "Este post ha sido eliminado"
+                    },
+                    "hidden": {
+                        "title": "Este post ha sido ocultado por tu lista de bloqueados.",
+                        "action": {
+                            "view": "Mirar Igualmente",
+                            "back": "Ir Atrás"
+                        }
+                    }
+                },
+                "creation_date_warning": "La fecha proporcionada por el poster puede no representa las fecha verdadera de creacion."
+            }
+        },
+        "user": {
+            "view": {
+                "follows_you": "Te Sigue",
+                "404": "Este usuario no existe",
+                "recent_uploads_heading": "Subidas recientes",
+                "edit": "Editar el Perfil",
+                "bio_heading": "Bio"
+            }
+        }
+    },
+    "generic": {
+        "errors": {
+            "no_perm": {
+                "message": "Tu cuenta no tiene acceso a esta pagina.",
+                "title": "Sin Permiso"
+            }
+        },
+        "ratings": {
+            "safe": "Seguro",
+            "suggestive": "Suggestivo",
+            "mature": "Maduro",
+            "explicit": "Explícito"
+        },
+        "statuses": {
+            "-1": "Eliminado (Moderado)",
+            "0": "Borrador",
+            "1": "No Listado",
+            "2": "Público",
+            "3": "Moderación Pendiente"
+        },
+        "list": {
+            "last_separator": " y ",
+            "separator": ". "
+        },
+        "things": {
+            "guest_authors": "Autores Invitados",
+            "author": "Autor",
+            "authors": "Autores",
+            "character": "Personaje",
+            "characters": "Personajes",
+            "stars": "Estrellas",
+            "art": "Arte",
+            "video": "Vídeo",
+            "photo": "Foto",
+            "text": "Texto",
+            "star": "Estrella",
+            "views": "Visitas"
+        },
+        "tabNames": {
+            "home": "Casa",
+            "uploads": "Cargas",
+            "gallery": "Galería",
+            "characters": "Personajes",
+            "stars": "Estrellas",
+            "followers": "Seguidores",
+            "following": "Siguiendo",
+            "edit": "Editar",
+            "comments": "Comentarios",
+            "details": "Detalles",
+            "rating": "Calificación",
+            "publish": "Publicar",
+            "post": "Publicación",
+            "description": "Descripción"
+        },
+        "actions": {
+            "add": "Añadir",
+            "settings": "Ajustes",
+            "edit": "Editar",
+            "edit_person": "Editar {name}",
+            "save": "Guardar",
+            "cancel": "Cancelar",
+            "discard": "Descartar Cambios",
+            "delete": "Borrar",
+            "view": "Vista",
+            "publish": "Publicar",
+            "view_more": "Mirar Más"
+        },
+        "references": {
+            "by": "por {names}",
+            "from": "de {names}",
+            "joined": "desde {date}",
+            "created": "Creado {date}",
+            "posted": "Publicado {date}",
+            "persons": {
+                "uploads": "Cargas de {name}",
+                "gallery": "Galería de {name}",
+                "characters": "Personajes de {name}",
+                "stars": "Estrellas de {name}"
+            },
+            "uploaded_by": "subido por {names}"
+        },
+        "counts": {
+            "followers": {
+                "zero": "sin seguidores",
+                "other": "{count} seguidores",
+                "one": "{count} Seguidores"
+            },
+            "following": {
+                "zero": "no esta siguiendo",
+                "one": "{count} siguiendo",
+                "other": "{count} siguiendo"
             }
         }
     }
