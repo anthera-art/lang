@@ -110,7 +110,8 @@
           "feed": "Feed",
           "home": "Home",
           "explore": "Explore",
-          "wiki": "Wiki"
+          "wiki": "Wiki",
+          "forum": "Forum"
         },
         "user_menu": {
           "you": "You!",
