@@ -77,5 +77,41 @@
                 "footer_text": ":3"
             }
         }
+    },
+    "generic": {
+        "things": {
+            "art": "Art",
+            "author": "Auteur",
+            "authors": "Auteurs",
+            "photo": "Photo",
+            "video": "Vidéo"
+        },
+        "tabNames": {
+            "uploads": "Téléchargements",
+            "edit": "Modifier",
+            "gallery": "Galerie",
+            "home": "Menu",
+            "publish": "Publier",
+            "description": "Description",
+            "post": "Poste",
+            "details": "Détails",
+            "comments": "Commentaires"
+        },
+        "ratings": {
+            "explicit": "Explicite"
+        },
+        "list": {
+            "last_separator": " .et. ",
+            "separator": ",. "
+        },
+        "actions": {
+            "save": "Sauvegarder",
+            "settings": "Paramètres",
+            "cancel": "Annuler",
+            "delete": "Supprimer",
+            "publish": "Publier",
+            "view_more": "Voir plus",
+            "view": "Voir"
+        }
     }
 }
