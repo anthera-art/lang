@@ -125,7 +125,8 @@
           "ratings": "Ratings",
           "notifications": "Notifications",
           "create": "Create",
-          "create_post": "Create Post",
+          "create_post": "Upload Image or Video",
+          "create_text": "Create Text Post",
           "new_character": "New Character",
           "login_cta": "Log in or create an account",
           "your_rating_filters": "Your rating filters"
